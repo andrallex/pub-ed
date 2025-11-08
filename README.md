@@ -6,7 +6,7 @@ pip install https://github.com/andrallex/pub-ed/releases/download/v2025.11.2/zoo
 ```
 ### Пример использования 1 (по шагам, с контролем)
 ```python
-from training_task_7_selenium_lib_pack import (
+from zoon_tomsk_parser import (
     collect_cards_to_html_uc,
     get_cards_from_html
 )
@@ -33,7 +33,7 @@ print(df)
 
 ### Пример использования 2 (в один подход, медленно, без контроля)
 ```python
-from training_task_7_selenium_lib_pack import parse_all_restaurants_to_csv
+from zoon_tomsk_parser import parse_all_restaurants_to_csv
 # Собираем HTML, а затем разобрать его на карточки и записать в .csv-файл в один подход
 parse_all_restaurants_to_csv()
 ```
