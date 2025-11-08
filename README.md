@@ -34,6 +34,6 @@ print(df)
 ### Пример использования 2 (в один подход, медленно, без контроля)
 ```python
 from zoon_tomsk_parser import parse_all_restaurants_to_csv
-# Собираем HTML, а затем разобрать его на карточки и записать в .csv-файл в один подход
+# Собираем HTML, а затем разбираем его на карточки и записаем в .csv-файл в один подход
 parse_all_restaurants_to_csv()
 ```
