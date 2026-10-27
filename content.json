@@ -1,0 +1,716 @@
+{
+  "title": "Statistics for beginners",
+  "subtitle": "Уроки статистики, собранные в темы: лекции, презентации и конспекты в одном месте.",
+  "source": "Statistics One",
+  "topics": [
+    {
+      "id": "introduction",
+      "number": 1,
+      "name": "Introduction",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "",
+          "title": "Course Introduction",
+          "duration": "",
+          "video": "1 - 1 - Course Introduction.mp4",
+          "slides": "",
+          "text": "1 - 1 - Course Introduction.txt"
+        }
+      ],
+      "extras": [],
+      "counts": {
+        "lectures": 1,
+        "videos": 1,
+        "slides": 0,
+        "texts": 1
+      }
+    },
+    {
+      "id": "week-1-introduction-and-descriptive-statistics",
+      "number": 2,
+      "name": "Week 1 Introduction & Descriptive Statistics",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "1a",
+          "title": "Randomized Studies",
+          "duration": "29:48",
+          "video": "2 - 1 - Lecture 1a Randomized Studies (2948).mp4",
+          "slides": "lecture_slides_Stats1.01A.pdf",
+          "text": "2 - 1 - Lecture 1a- Randomized Studies (29-48).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "1b",
+          "title": "Observational Studies",
+          "duration": "14:18",
+          "video": "2 - 2 - Lecture 1b Observational Studies (1418).mp4",
+          "slides": "lecture_slides_Stats1.01B.pdf",
+          "text": "2 - 2 - Lecture 1b- Observational Studies (14-18).txt"
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "2a",
+          "title": "Histograms",
+          "duration": "21:46",
+          "video": "2 - 3 - Lecture 2a Histograms (2146).mp4",
+          "slides": "lecture_slides_Stats1.02A.pdf",
+          "text": "2 - 3 - Lecture 2a- Histograms (21-46).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "2b",
+          "title": "Summary Statistics",
+          "duration": "19:51",
+          "video": "2 - 4 - Lecture 2b Summary Statistics (1951).mp4",
+          "slides": "lecture_slides_Stats1.02B.pdf",
+          "text": "2 - 4 - Lecture 2b- Summary Statistics (19-51).txt"
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "2c",
+          "title": "Tools for Inferential Statistics",
+          "duration": "14:44",
+          "video": "2 - 5 - Lecture 2c Tools for Inferential Statistics (1444).mp4",
+          "slides": "lecture_slides_Stats1.02C.pdf",
+          "text": "2 - 5 - Lecture 2c- Tools for Inferential Statistics (14-44).txt"
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "3a",
+          "title": "Downloading & Installing R",
+          "duration": "15:05",
+          "video": "2 - 6 - Lecture 3a Downloading  Installing R (1505).mp4",
+          "slides": "lecture_slides_Stats1.03A.pdf",
+          "text": "2 - 6 - Lecture 3a- Downloading & Installing R (15-05).txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "3b",
+          "title": "Writing a Script",
+          "duration": "15:05",
+          "video": "2 - 7 - Lecture 3b Writing a Script (1505).mp4",
+          "slides": "lecture_slides_Stats1.03B.pdf",
+          "text": "2 - 7 - Lecture 3b- Writing a Script (15-05).txt"
+        }
+      ],
+      "extras": [
+        {
+          "name": "supplemental_stats1_ex01.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 7,
+        "videos": 7,
+        "slides": 7,
+        "texts": 7
+      }
+    },
+    {
+      "id": "week-2-correlation-and-measurement",
+      "number": 3,
+      "name": "Week 2 Correlation & Measurement",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "4a",
+          "title": "Examples of Correlations",
+          "duration": "25:50",
+          "video": "3 - 1 - Lecture 4a Examples of Correlations (2550).mp4",
+          "slides": "lecture_slides_Stats1.04A.pdf",
+          "text": "3 - 1 - Lecture 4a- Examples of Correlations (25-50).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "4b",
+          "title": "Calculating Correlations",
+          "duration": "13:02",
+          "video": "3 - 2 - Lecture 4b Calculating Correlations (1302).mp4",
+          "slides": "lecture_slides_Stats1.04B.pdf",
+          "text": "3 - 2 - Lecture 4b- Calculating Correlations (13-02).txt"
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "4c",
+          "title": "Interpreting Correlations",
+          "duration": "21:47",
+          "video": "3 - 3 - Lecture 4c Interpreting Correlations (2147).mp4",
+          "slides": "lecture_slides_Stats1.04C.pdf",
+          "text": "3 - 3 - Lecture 4c- Interpreting Correlations (21-47).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "5a",
+          "title": "Reliability & Validity",
+          "duration": "17:49",
+          "video": "3 - 4 - Lecture 5a Reliability  Validity (1749).mp4",
+          "slides": "lecture_slides_Stats1.05A.pdf",
+          "text": "3 - 4 - Lecture 5a- Reliability & Validity (17-49).txt"
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "5b",
+          "title": "Sampling",
+          "duration": "18:29",
+          "video": "3 - 5 - Lecture 5b Sampling (1829).mp4",
+          "slides": "lecture_slides_Stats1.05B.pdf",
+          "text": "3 - 5 - Lecture 5b- Sampling (18-29).txt"
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "6a",
+          "title": "Scatterplots & Correlations in R",
+          "duration": "25:26",
+          "video": "3 - 6 - Lecture 6a Scatterplots  Correlations in R (2526).mp4",
+          "slides": "lecture_slides_Stats1.06A.pdf",
+          "text": "3 - 6 - Lecture 6a- Scatterplots & Correlations in R (25-26).txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "6b",
+          "title": "Test-Re-test Reliability Analysis in R",
+          "duration": "13:58",
+          "video": "3 - 7 - Lecture 6b Test_Re-test Reliability Analysis in R (1358).mp4",
+          "slides": "lecture_slides_Stats1.06B.pdf",
+          "text": "3 - 7 - Lecture 6b- Test_Re-test Reliability Analysis in R (13-58).txt"
+        }
+      ],
+      "extras": [
+        {
+          "name": "datafiles_STATS1.EX.02.txt",
+          "kind": "Данные"
+        },
+        {
+          "name": "supplemental_STATS1.EX.02.txt",
+          "kind": "Данные"
+        },
+        {
+          "name": "supplemental_STATS1.EX.03.COL.txt",
+          "kind": "Данные"
+        },
+        {
+          "name": "supplemental_STATS1.EX.03.ROW.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 7,
+        "videos": 7,
+        "slides": 7,
+        "texts": 7
+      }
+    },
+    {
+      "id": "week-3-regression-and-hypothesis-testing",
+      "number": 4,
+      "name": "Week 3 Regression & Hypothesis Testing",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "7a",
+          "title": "Introduction to Regression",
+          "duration": "25:32",
+          "video": "4 - 1 - Lecture 7a Introduction to Regression (2532).mp4",
+          "slides": "lecture_slides_Stats1.07A.pdf",
+          "text": "4 - 1 - Lecture 7a- Introduction to Regression (25-32).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "7b",
+          "title": "A Closer Look at Null Hypothesis Significance Testing (NHST)",
+          "duration": "27:13",
+          "video": "4 - 2 - Lecture 7b A Closer Look at Null Hypothesis Significance Testing (NHST) (2713).mp4",
+          "slides": "lecture_slides_Stats1.07B.pdf",
+          "text": "4 - 2 - Lecture 7b- A Closer Look at Null Hypothesis Significance Testing (NHST) (27-13).txt"
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "8a",
+          "title": "Introduction to Multiple Regression",
+          "duration": "23:22",
+          "video": "4 - 3 - Lecture 8a Introduction to Multiple Regression (2322).mp4",
+          "slides": "lecture_slides_Stats1.08A.pdf",
+          "text": "4 - 3 - Lecture 8a- Introduction to Multiple Regression (23-22).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "8b",
+          "title": "Matrix Algebra",
+          "duration": "17:53",
+          "video": "4 - 4 - Lecture 8b Matrix Algebra (1753).mp4",
+          "slides": "lecture_slides_Stats1.08B.pdf",
+          "text": "4 - 4 - Lecture 8b- Matrix Algebra (17-53).txt"
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "8c",
+          "title": "Estimation of Coefficients",
+          "duration": "14:15",
+          "video": "4 - 5 - Lecture 8c Estimation of Coefficients (1415).mp4",
+          "slides": "lecture_slides_Stats1.08C.pdf",
+          "text": "4 - 5 - Lecture 8c- Estimation of Coefficients (14-15).txt"
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "9a",
+          "title": "Multiple Regression Analysis in R",
+          "duration": "17:31",
+          "video": "4 - 6 - Lecture 9a Multiple Regression Analysis in R (1731).mp4",
+          "slides": "lecture_slides_Stats1.09A.pdf",
+          "text": "4 - 6 - Lecture 9a- Multiple Regression Analysis in R (17-31).txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "9b",
+          "title": "Standardized Multiple Regression Analysis in R",
+          "duration": "16:14",
+          "video": "4 - 7 - Lecture 9b Standardized Multiple Regression Analysis in R (1614).mp4",
+          "slides": "lecture_slides_Stats1.09B.pdf",
+          "text": "4 - 7 - Lecture 9b- Standardized Multiple Regression Analysis in R (16-14).txt"
+        }
+      ],
+      "extras": [
+        {
+          "name": "supplemental_STATS1.EX.04.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 7,
+        "videos": 7,
+        "slides": 7,
+        "texts": 7
+      }
+    },
+    {
+      "id": "week-4-mediation-and-moderation",
+      "number": 5,
+      "name": "Week 4 Mediation & Moderation",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "10a",
+          "title": "Regression Method for Mediation",
+          "duration": "18:12",
+          "video": "5 - 1 - Lecture 10a Regression Method for Mediation (1812).mp4",
+          "slides": "lecture_slides_Stats1.10A.pdf",
+          "text": "5 - 1 - Lecture 10a- Regression Method for Mediation (18-12).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "10b",
+          "title": "Path Analysis Method for Mediation",
+          "duration": "15:47",
+          "video": "5 - 2 - Lecture 10b Path Analysis Method for Mediation (1547).mp4",
+          "slides": "lecture_slides_Stats1.10B.pdf",
+          "text": ""
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "11a",
+          "title": "Moderation Example 1",
+          "duration": "18:16",
+          "video": "5 - 3 - Lecture 11a Moderation Example 1 (1816).mp4",
+          "slides": "lecture_slides_Stats1.11A.pdf",
+          "text": "5 - 3 - Lecture 11a- Moderation Example 1 (18-16).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "11b",
+          "title": "Data Centering and Dummy Coding",
+          "duration": "26:46",
+          "video": "5 - 4 - Lecture 11b Data Centering and Dummy Coding (2646).mp4",
+          "slides": "lecture_slides_Stats1.11B.pdf",
+          "text": "5 - 4 - Lecture 11b- Data Centering and Dummy Coding (26-46).txt"
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "11c",
+          "title": "Moderation Example 2",
+          "duration": "18:16",
+          "video": "5 - 5 - Lecture 11c Moderation Example 2 (1816).mp4",
+          "slides": "lecture_slides_Stats1.11C.pdf",
+          "text": "5 - 5 - Lecture 11c- Moderation Example 2 (18-16).txt"
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "12a",
+          "title": "Mediation in R",
+          "duration": "27:29",
+          "video": "5 - 6 - Lecture 12a Mediation in R (2729).mp4",
+          "slides": "",
+          "text": "5 - 6 - Lecture 12a- Mediation in R (27-29).txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "12b",
+          "title": "Moderation in R",
+          "duration": "15:43",
+          "video": "5 - 7 - Lecture 12b Moderation in R (1543).mp4",
+          "slides": "",
+          "text": "5 - 7 - Lecture 12b- Moderation in R (15-43).txt"
+        }
+      ],
+      "extras": [
+        {
+          "name": "supplemental_STATS1.EX.05.txt",
+          "kind": "Данные"
+        },
+        {
+          "name": "supplemental_STATS1.EX.06.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 7,
+        "videos": 7,
+        "slides": 5,
+        "texts": 6
+      }
+    },
+    {
+      "id": "week-5-student-s-t-test-and-analysis-of-variance-anova",
+      "number": 6,
+      "name": "Week 5 Student's t-test & Analysis of variance (ANOVA)",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "13a",
+          "title": "Overview of Students t-test",
+          "duration": "27:29",
+          "video": "6 - 1 - Lecture 13a Overview of Students t-test (2729).mp4",
+          "slides": "lecture_slides_Stats1.13A.pdf",
+          "text": "6 - 1 - Lecture 13a_ Overview of Students t-test (27_29).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "13b",
+          "title": "Dependent & Independent t-tests",
+          "duration": "15:43",
+          "video": "6 - 2 - Lecture 13b Dependent  Independent t-tests (1543).mp4",
+          "slides": "",
+          "text": "6 - 2 - Lecture 13b_ Dependent & Independent t-tests (15_43).txt"
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "14a",
+          "title": "General Linear Model",
+          "duration": "14:51",
+          "video": "6 - 3 - Lecture 14a General Linear Model (1451).mp4",
+          "slides": "lecture_slides_Stats1.14A.pdf",
+          "text": "6 - 3 - Lecture 14a- General Linear Model (14-51).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "14b",
+          "title": "One-Way ANOVA",
+          "duration": "15:58",
+          "video": "6 - 4 - Lecture 14b One-Way ANOVA (1558).mp4",
+          "slides": "lecture_slides_Stats1.14B.pdf",
+          "text": ""
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "14c",
+          "title": "Factorial ANOVA",
+          "duration": "21:23",
+          "video": "6 - 5 - Lecture 14c Factorial ANOVA (2123).mp4",
+          "slides": "lecture_slides_Stats1.14C.pdf",
+          "text": ""
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "15a",
+          "title": "Student t-tests and ANOVA in R",
+          "duration": "",
+          "video": "6 - 6 - Lecture 15a Student t-tests and ANOVA in R.mp4",
+          "slides": "lecture_slides_Stats1.15A.pdf",
+          "text": "6 - 6 - Lecture 15a_ Student t-tests and ANOVA in R.txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "15b",
+          "title": "T-tests in R",
+          "duration": "",
+          "video": "6 - 7 - Lecture 15b T-tests in R.mp4",
+          "slides": "lecture_slides_Stats1.15B.pdf",
+          "text": "6 - 7 - Lecture 15b_ T-tests in R.txt"
+        },
+        {
+          "id": "l8",
+          "number": 8,
+          "code": "15c",
+          "title": "ANOVA in R",
+          "duration": "",
+          "video": "6 - 8 - Lecture 15c ANOVA in R.mp4",
+          "slides": "lecture_slides_Stats1.15C.pdf",
+          "text": "6 - 8 - Lecture 15c_ ANOVA in R.txt"
+        }
+      ],
+      "extras": [
+        {
+          "name": "supplemental_STATS1.EX.07.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 8,
+        "videos": 8,
+        "slides": 7,
+        "texts": 6
+      }
+    },
+    {
+      "id": "week-6-factorial-anova-and-model-comparison",
+      "number": 7,
+      "name": "Week 6 Factorial ANOVA & Model comparison",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "16a",
+          "title": "Benefits of Repeated Measures ANOVA",
+          "duration": "",
+          "video": "7 - 1 - Lecture 16a Benefits of Repeated Measures ANOVA.mp4",
+          "slides": "lecture_slides_Stats1.16A.pdf",
+          "text": ""
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "16b",
+          "title": "Risks of Repeated Measures ANOVA",
+          "duration": "",
+          "video": "7 - 2 - Lecture 16b Risks of Repeated Measures ANOVA.mp4",
+          "slides": "lecture_slides_Stats1.16B.pdf",
+          "text": ""
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "17a",
+          "title": "Mixed Factorial ANOVA",
+          "duration": "",
+          "video": "7 - 3 - Lecture 17a Mixed Factorial ANOVA.mp4",
+          "slides": "lecture_slides_Stats1.17A.pdf",
+          "text": "7 - 3 - Lecture 17a_ Mixed Factorial ANOVA.txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "17b",
+          "title": "Mixed Factorial ANOVA in R",
+          "duration": "",
+          "video": "7 - 4 - Lecture 17b Mixed Factorial ANOVA in R.mp4",
+          "slides": "lecture_slides_Stats1.17B.pdf",
+          "text": ""
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "18",
+          "title": "Summary",
+          "duration": "",
+          "video": "7 - 5 - Lecture 18 Summary.mp4",
+          "slides": "lecture_slides_Stats1.18.pdf",
+          "text": ""
+        }
+      ],
+      "extras": [
+        {
+          "name": "supplemental_STATS1.EX.08.R",
+          "kind": "Данные"
+        },
+        {
+          "name": "supplemental_STATS1.EX.08.txt",
+          "kind": "Данные"
+        }
+      ],
+      "counts": {
+        "lectures": 5,
+        "videos": 5,
+        "slides": 5,
+        "texts": 1
+      }
+    },
+    {
+      "id": "r-tutorials",
+      "number": 8,
+      "name": "R Tutorials",
+      "lectures": [
+        {
+          "id": "l1",
+          "number": 1,
+          "code": "",
+          "title": "R Tour: Introduction and Console",
+          "duration": "2:36",
+          "video": "7 - 1 - R Tour Introduction and Console (236).mp4",
+          "slides": "",
+          "text": "7 - 1 - R Tour- Introduction and Console (2-36).txt"
+        },
+        {
+          "id": "l2",
+          "number": 2,
+          "code": "",
+          "title": "R Tour: Variables and Workspace",
+          "duration": "3:56",
+          "video": "7 - 2 - R Tour Variables and Workspace (356).mp4",
+          "slides": "",
+          "text": "7 - 2 - R Tour- Variables and Workspace (3-56).txt"
+        },
+        {
+          "id": "l3",
+          "number": 3,
+          "code": "",
+          "title": "R Tour: Working Directory",
+          "duration": "4:06",
+          "video": "7 - 3 - R Tour Working Directory (406).mp4",
+          "slides": "",
+          "text": "7 - 3 - R Tour- Working Directory (4-06).txt"
+        },
+        {
+          "id": "l4",
+          "number": 4,
+          "code": "",
+          "title": "R Tour: Default Working Directory in Windows",
+          "duration": "",
+          "video": "7 - 4 - R Tour- Default Working Directory in Windows.mp4",
+          "slides": "",
+          "text": "7 - 4 - R Tour- Default Working Directory in Windows.txt"
+        },
+        {
+          "id": "l5",
+          "number": 5,
+          "code": "",
+          "title": "R Tour: Importing Data",
+          "duration": "4:45",
+          "video": "7 - 5 - R Tour- Importing Data (445).mp4",
+          "slides": "",
+          "text": "7 - 5 - R Tour- Importing Data (4-45).txt"
+        },
+        {
+          "id": "l6",
+          "number": 6,
+          "code": "",
+          "title": "R Tour: Functions",
+          "duration": "11:19",
+          "video": "7 - 6 - R Tour Functions (1119).mp4",
+          "slides": "",
+          "text": "7 - 6 - R Tour- Functions (11-19).txt"
+        },
+        {
+          "id": "l7",
+          "number": 7,
+          "code": "",
+          "title": "R Tour: Libraries",
+          "duration": "5:47",
+          "video": "7 - 7 - R Tour Libraries (547).mp4",
+          "slides": "",
+          "text": "7 - 7 - R Tour- Libraries (5-47).txt"
+        },
+        {
+          "id": "l8",
+          "number": 8,
+          "code": "",
+          "title": "R Tour: Creating and Saving Scripts",
+          "duration": "2:06",
+          "video": "7 - 8 - R Tour Creating and Saving Scripts (206).mp4",
+          "slides": "",
+          "text": "7 - 8 - R Tour- Creating and Saving Scripts (2-06).txt"
+        },
+        {
+          "id": "l9",
+          "number": 9,
+          "code": "",
+          "title": "R Tour: Getting Help with R",
+          "duration": "2:34",
+          "video": "7 - 9 - R Tour Getting Help with R (234).mp4",
+          "slides": "",
+          "text": "7 - 9 - R Tour- Getting Help with R (2-34).txt"
+        },
+        {
+          "id": "l10",
+          "number": 10,
+          "code": "",
+          "title": "R Tour: Script Walkthrough",
+          "duration": "15:27",
+          "video": "7 - 10 - R Tour Script Walkthrough (1527).mp4",
+          "slides": "",
+          "text": "7 - 10 - R Tour- Script Walkthrough (15-27).txt"
+        },
+        {
+          "id": "l11",
+          "number": 11,
+          "code": "",
+          "title": "R Tour: Running Scripts",
+          "duration": "3:27",
+          "video": "7 - 11 - R Tour Running Scripts (327).mp4",
+          "slides": "",
+          "text": "7 - 11 - R Tour- Running Scripts (3-27).txt"
+        },
+        {
+          "id": "l12",
+          "number": 12,
+          "code": "",
+          "title": "R Tour: Debugging Scripts",
+          "duration": "4:55",
+          "video": "7 - 12 - R Tour- Debugging Scripts (455).mp4",
+          "slides": "",
+          "text": "7 - 12 - R Tour- Debugging Scripts (4-55).txt"
+        }
+      ],
+      "extras": [],
+      "counts": {
+        "lectures": 12,
+        "videos": 12,
+        "slides": 0,
+        "texts": 12
+      }
+    }
+  ],
+  "totals": {
+    "topics": 8,
+    "lectures": 54,
+    "videos": 54,
+    "slides": 38,
+    "texts": 47
+  }
+}
