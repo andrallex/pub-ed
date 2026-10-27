@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics for beginners — статистика с нуля</title>
+    <meta name="description" content="Statistics for beginners — уроки статистики, собранные в темы: лекции, презентации и конспекты.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="#/" aria-label="Statistics for beginners — на главную">
+            <span class="brand-mark">Σ</span>
+            <span class="brand-text">Statistics <em>for beginners</em></span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="mainNav" aria-label="Основная навигация">
+            <a href="#/">Курс</a>
+            <a href="#contents">Содержание</a>
+            <a href="#topics">Темы</a>
+            <a href="#about">О курсе</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- ================= HOME ================= -->
+    <section id="view-home">
+        <section class="hero">
+            <div class="hero-inner">
+                <p class="eyebrow">Statistics One · учебный курс</p>
+                <h1>Статистика <span class="grad">с нуля</span></h1>
+                <p class="hero-lead">
+                    Уроки, разбитые по темам: видеолекции, презентации и конспекты.
+                    Выбирайте тему, открывайте лекцию и учитесь в своём темпе.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#contents">Содержание курса</a>
+                    <a class="btn btn-ghost" href="#topics">Смотреть темы</a>
+                </div>
+
+                <dl class="hero-stats" id="heroStats" aria-label="Статистика курса"></dl>
+            </div>
+            <div class="hero-orbit" aria-hidden="true"></div>
+        </section>
+
+        <section class="section" id="contents">
+            <div class="section-head">
+                <p class="eyebrow">Навигация</p>
+                <h2>Содержание курса</h2>
+                <p class="section-lead">Все темы курса в порядке изучения. Выберите тему — откроются её лекции.</p>
+            </div>
+            <div class="contents-card" id="contentsCard" aria-live="polite">
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+            </div>
+        </section>
+
+        <section class="section" id="topics">
+            <div class="section-head section-head--split">
+                <div>
+                    <p class="eyebrow">Каталог</p>
+                    <h2>Темы курса</h2>
+                    <p class="section-lead" id="topicsHint">Каждая карточка ведёт к лекциям темы.</p>
+                </div>
+                <div class="filters" id="filters" role="group" aria-label="Фильтр по темам"></div>
+            </div>
+            <div class="topic-grid" id="topicGrid"></div>
+            <p class="empty-filter" id="emptyFilter" hidden>По этой теме пока нет лекций.</p>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="about-card">
+                <div class="about-text">
+                    <p class="eyebrow">О курсе</p>
+                    <h2>Учиться статистике — значит учиться читать данные</h2>
+                    <p>
+                        Материалы собраны из курса <strong>Statistics One</strong>: от планирования
+                        исследований и описательных статистик до корреляции, регрессии, медиации,
+                        модерации и дисперсионного анализа.
+                    </p>
+                    <p>
+                        Каждая лекция сопровождается видео, слайдами и текстовым конспектом —
+                        можно смотреть, листать и перечитывать в удобном формате.
+                    </p>
+                </div>
+                <ul class="about-list">
+                    <li><span>01</span> Карточка содержания курса со всеми темами</li>
+                    <li><span>02</span> Карточки тем со списком лекций</li>
+                    <li><span>03</span> Карточки лекций с файлами .mp4, .pdf и .txt</li>
+                    <li><span>04</span> Фильтр по темам и удобный поиск нужной лекции</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <!-- ================= TOPIC ================= -->
+    <section id="view-topic" hidden></section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="footer-brand">Statistics <em>for beginners</em></span>
+        <span class="footer-note">Материалы курса Statistics One · самостоятельное обучение</span>
+    </div>
+</footer>
+
+<!-- Text reader -->
+<div class="modal" id="textModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-head">
+            <h3 id="modalTitle">Конспект лекции</h3>
+            <button class="icon-btn" type="button" data-close-modal aria-label="Закрыть">✕</button>
+        </div>
+        <div class="modal-body">
+            <pre id="modalText" class="modal-text"></pre>
+        </div>
+        <div class="modal-foot">
+            <a id="modalDownload" class="btn btn-ghost btn-sm" href="#" download>Скачать .txt</a>
+        </div>
+    </div>
+</div>
+
+<noscript>
+    <div class="noscript">Для работы сайта нужен JavaScript.</div>
+</noscript>
+
+<script src="/script.js"></script>
+</body>
+</html>
